@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART NATION</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="barraDeNavegacion">
+            <ul>
+                <li><a href="#"><img src="img/LOGO.png" alt="logo"></a></li>
+                <li><a href="#">Fundas</a></li>
+                <li><a href="#">PopSockets</a></li>
+                <li><a href="#">Tiras de celulares</a></li>
+                <li><a href="paginacontacto.html">Contacto</a></li>
+                <a href="formulario1.html"><img id="icono" src="img/icono.png" alt="icono" height="80px"></a>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="slider">
+        <div><img src="img/slide1.jpg" alt="Slide 1"></div>
+        <div><img src="img/slide2.jpg" alt="Slide 2"></div>
+        <div><img src="img/slide3.jpg" alt="Slide 3"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                autoplay: true, 
+                autoplaySpeed: 3000,
+                dots: true,
+            });
+        });
+    </script>
+
+<div class="gallery">
+    <div class="contenedor" onclick="openModal(1)">
+      <img src="img/imagen1.png" alt="imagen1">
+      <h3>Popsocket </h3>
+      <p>Popsocket "Carita feliz"</p>
+      <p>$MXN100.00</p>
+    </div>
+
+    <div class="contenedor" onclick="openModal(2)">
+      <img src="img/imagen2.png" alt="imagen2">
+      <h3>Tira de celular</h3>
+      <p>Diseño "Love" con cuentas</p>
+      <p>$MXN60.00</p>
+    </div>
+
+    <div class="contenedor" onclick="openModal(3)">
+      <img src="img/imagen3.png" alt="imagen3">
+      <h3>Tira de celular</h3>
+      <p>Diseño cuentas figuritas</p>
+      <p>$MXN50.00</p>
+    </div>
+  </div>
+   
+    <div class="loader-container">
+        <div class="loader">
+        <div class="loading-bar"></div>
+    </div>
+    <p class="description">¡Pronto nuevos productos!</p>
+    <p>LOADING...</p>
+  </div>
+    <p></p>
+  <footer>
+        <div class="logo">
+            <img src="img/LOGO.png" alt="Logo">
+        </div>
+            <div class="redes-sociales">
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://twitter.com/">Twitter</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="#">Acerca de</a>
+        </div>
+    </footer>
+</body>
+</html>
+
