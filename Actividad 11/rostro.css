@@ -1,0 +1,26 @@
+.rostro {
+    fill: #F9D43D; /* Color de piel */
+    stroke: #000; /* Borde */
+    stroke-width: 2;
+}
+
+.ojo {
+    fill: white; /* Color del ojo */
+    stroke: #000; /* Borde del ojo */
+    stroke-width: 2;
+}
+
+.boca {
+    fill: rgb(226, 140, 140);
+    stroke: #ee6767; /* Color de la boca */
+    stroke-width: 3;
+}
+
+.ceja {
+    stroke: #000; /* Color de las cejas */
+    stroke-width: 3; /* Grosor de las cejas */
+}
+
+.ojo:hover {
+    fill: rgb(227, 129, 10); /* Color del ojo en hover */
+}
