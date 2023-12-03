@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fundas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>FUNDAS DISPONIBLES</h1>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fffbe9; 
+    font-family: Arial, sans-serif; 
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #4a148c; 
+}
+
+
+.login-link {
+    margin-top: 40px; 
+    text-align: center;
+}
+
+.login-link a {
+    text-decoration: none; 
+    color: #4a148c; 
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contenedor {
+    width: 300px;
+    margin: 20px;
+    border: 2px solid rgb(136, 117, 96);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+</style>
+    <div class="gallery">
+        <div class="contenedor" onclick="openModal(1)">
+          <img src="img/slidefunda1.jpg" alt="imagen1">
+          <h3>Funda de celular </h3>
+          <p>Funda de celular "Duraznitos"</p>
+          <p>$MXN180.00 c/u</p>
+        </div>
+    
+        <div class="contenedor" onclick="openModal(2)">
+          <img src="img/slidefunda2.jpg" alt="imagen2">
+          <h3>Funda de celular</h3>
+          <p>Variedad de diseños de flores </p>
+          <p>$MXN230.00 c/u</p>
+        </div>
+    
+        <div class="contenedor" onclick="openModal(3)">
+          <img src="img/slidefunda3.jpg" alt="imagen3">
+          <h3>Funda de celular</h3>
+          <p>Diseño flores blancas "primavera"</p>
+          <p>$MXN120.00 c/u</p>
+        </div>
+      </div>
+
+    <div class="login-link"> 
+        <p><a href="index.html">Regresar a home</a></p>
+    </div>
+
+   
+</body>
+</html>
+

@@ -1,0 +1,132 @@
+    /* Contenedor Principal */
+    .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #8bd4b2;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold; 
+        }
+
+        /* Logotipo */
+        .logo {
+            max-width: 350px;
+            margin-right: 50px;
+            image-orientation: center;
+        }
+        
+        /* Paleta de Colores */
+        .color-palette {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .color {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-weight: bold;
+        }
+
+        .color.primary {
+            background-color: #CDC2E1;
+            color: #333;
+        }
+
+        .color.secondary {
+            background-color: rgb(171, 33, 199);
+            color: white;
+        }
+
+        .color.accent {
+            background-color: #593E8F;
+            color: white;
+        }
+
+        .color.white {
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        /* Tipografía */
+        .typography {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold; 
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        /* Formulario de Registro */
+        .formulary {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        
+        }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            .form-group {
+                margin-bottom: 20px;
+            }
+            
+            label {
+                display: block;
+                font-weight: bold;
+            }
+            
+            input {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+            }
+            
+            .btn {
+                background-color: #007bff;
+                color: #fff;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                display: block;
+                margin: 0 auto;
+            
+            }
+            
+            .btn:hover {
+                background-color: #0056b3;
+            }
+            
+            .text-center {
+                text-align: center;
+            }
+            
+            .login-link {
+                text-align: center;
+                margin-top: 10px;
+                text-decoration: underline solid blue;
+            }
+            
+            .espacio {
+                margin-top: 20px; 
+                margin-bottom: 20px; 
+            }
+            

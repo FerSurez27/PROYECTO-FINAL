@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fundas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>TIRAS DE CELULARES DISPONIBLES</h1>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e8f1fc; 
+    font-family: Arial, sans-serif; 
+}
+h1 {
+    text-align: center;
+    margin-top: 30px; 
+    color: #4a148c; 
+}
+
+
+.login-link {
+    margin-top: 40px; 
+    text-align: center;
+}
+
+.login-link a {
+    text-decoration: none; 
+    color: #4a148c; 
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contenedor {
+    width: 300px;
+    margin: 20px;
+    border: 2px solid  rgb(99, 96, 136);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+</style>
+    <div class="gallery">
+        <div class="contenedor" onclick="openModal(1)">
+          <img src="img/tiras1.jpg" alt="imagen1">
+          <h3>Tiras de celulares</h3>
+          <p>Diseño aperlado con corazones</p>
+          <p>$MXN120.00 c/u</p>
+        </div>
+    
+        <div class="contenedor" onclick="openModal(2)">
+          <img src="img/tiras2.jpg" alt="imagen2">
+          <h3>Tiras de celulares</h3>
+          <p>Diseño de cadena de colores </p>
+          <p>$MXN150.00 c/u</p>
+        </div>
+    
+        <div class="contenedor" onclick="openModal(3)">
+          <img src="img/tiras3.jpg" alt="imagen3">
+          <h3>Tiras de celulares</h3>
+          <p>Diseño de cuentas personalizadas</p>
+          <p>$MXN200.00 c/u</p>
+        </div>
+      </div>
+
+    <div class="login-link"> 
+        <p><a href="index.html">Regresar a home</a></p>
+    </div>
+
+   
+</body>
+</html>
+
